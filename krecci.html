@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Křečci</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
+
+        ul.nav-pills {
+            top: 20px;
+            position: fixed;
+        }
+
+        div.col-sm-9 div {
+            height: 250px;
+            font-size: 28px;
+        }
+
+        #dzungarsky {
+            color: #fff;
+            background-color: #1E88E5;
+        }
+
+        #cinsky {
+            color: #fff;
+            background-color: #673ab7;
+        }
+
+        #campbell {
+            color: #fff;
+            background-color: #a100ff;
+        }
+
+        #zlaty {
+            color: #fff;
+            background-color: #6b0000;
+        }
+
+        #roborovsky {
+            color: #fff;
+            background-color: #0fc0a5;
+        }
+
+        @media screen and (max-width: 810px) {
+            #dzungarsky, #cinsky, #campbell, #zlaty, #roborovsky {
+                margin-left: 150px;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+<div class="container">
+    <div class="row">
+        <nav class="col-sm-3" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#dzungarsky">Džungárský</a></li>
+                <li><a href="#cinsky">Čínský</a></li>
+                <li><a href="#campbell">Campbellův</a></li>
+                <li><a href="#zlaty">Zlatý</a></li>
+                <li><a href="#roborovsky">Roborovského</a></li>
+                </li>
+            </ul>
+        </nav>
+        <div class="col-sm-9">
+            <div id="dzungarsky">
+                <h1 href="#" data-toggle="tooltip" data-placement="top" title="Phodopus sungorus">Křeček Džungárský</h1>
+                <p>malý hlodavec pocházející původně ze severního Kazachstánu (dnešní Sibiř). Ve světě jsou také známí
+                    pod různými jmény, například křečíci sibiřští nebo winter snow díky tomu, že mají v zimě téměř bílou
+                    strst.</p>
+            </div>
+            <div id="cinsky">
+                <h1 href="#" data-toggle="tooltip" data-placement="top" title="Cricetulus griseus">Křeček Čínský</h1>
+                <p>pochází z pouští severní Číny a Mongolska. Vyznačují se neobvykle dlouhým ocasem ve srovnání s jinými
+                    křečky, jejichž ocasy jsou většinou zavalité</p>
+            </div>
+            <div id="campbell">
+                <h1 href="#" data-toggle="tooltip" data-placement="top" title="Phodopus campbelli">Křeček
+                    Campbellův</h1>
+                <p>Své obecné jméno mu dal Oldfield Thomas na počest Charlese Williama Campbella, který shromáždil první
+                    exemplář v Mongolsku 1. července 1902. Od blízce příbuzného křečka džungarského se odlišuje tím, že
+                    má menší uši a nemá tmavou srst na temeni.</p>
+            </div>
+            <div id="zlaty">
+                <h1 href="#" data-toggle="tooltip" data-placement="top" title="Mesocricetus auratus">Křeček Zlatý</h1>
+                <p>Též Křeček zlatý. Poprvé byl křeček zlatý popsán v roce 1839 přírodovědcem Waterhousem.</p>
+            </div>
+            <div id="roborovsky">
+                <h1 href="#" data-toggle="tooltip" data-placement="top" title="Phodopus roborovskii">Křeček
+                    Roborovského</h1>
+                <p>drobný sotva 5,5 cm velký hlodavec obývající oblasti Mongolska a severní Číny. Je všežravec</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
